@@ -1,5 +1,6 @@
 import React from 'react'
 import 'tailwindcss/tailwind.css'
+
 const App = () => {
   return (
 
@@ -61,8 +62,47 @@ const App = () => {
   <img className='h-12 ml-[50px] mt-[20px] ' src="./src/assets/images/cloud.png" alt="" />
 </div>
 </div>
+<div className='mt-[100px]' >
+  <img className='h-[50px]'  src="./src/assets/images/star.png" alt="" />
+  <p className='text-white text-[40px] font-bold ml-[20px] mt-[10px] ' >A technology-first approach to <br /> payments and finance</p>
+  <p className='text-gray-500 mt-[50px]  ml-[20px] ' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur <br /> autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla <br /> cupiditate nam consequatur eligendi magni adipisci.</p>
+</div>
+ <div  className='mt-[100px] flex ' >
+  <div className=' flex flex-col' >
+    <div>
+    <img className='h-[50px] ml-[20px] rounded-full ' src="./src/assets/images/saat.png" alt="" />
+    </div>
 
-
+<p className='text-white text-[40px] font-bold ml-[20px] mt-[10px] ' >Nuxt development is carried out <br/> by passionate developers</p>
+<p className='text-gray-500 mt-[40px]  ml-[20px] ' >Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? <br /> Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+<p className='text-gray-500 mt-[40px]  ml-[20px] ' >Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at <br /> reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum <br /> amet.</p>
+<div className='flex ' >
+  <div className='flex' >
+  <img className='h-[50px] ml-[20px] mt-[5px] rounded-full '   src="./src/assets/images/chat.jpg" alt="" />
+  </div>
+<div className='flex flex-col' >
+<p className='text-purple-500 text-[20px] font-bold ml-[20px]  ' >Chat Anytime</p>
+<p className='text-gray-500 ml-[20px] ' >Asperiores nemo possimus nesciunt quam mollitia.</p>
+</div>
+</div>
+<hr className='ml-[20px] mt-[20px] text-[grey] ' />
+<div className='flex mt-[20px] ' >
+  <div className='flex' >
+  <img className='h-[50px] ml-[20px] mt-[5px] rounded-full '   src="./src/assets/images/location.png" alt="" />
+  </div>
+<div className='flex flex-col' >
+<p className='text-green-500 text-[20px] font-bold ml-[20px]  ' >Real Time Location</p>
+<p className='text-gray-500 ml-[20px] ' >Asperiores nemo possimus nesciunt quam mollitia.</p>
+</div>
+</div>
+  </div>
+  <div className='flex ml-[150px] ' >
+  <img src="./src/assets/images/pie.svg" alt="" />
+</div>
+ </div>
+ <div className='ml-[400px] mt-[150px] ' >
+  <p className='text-white text-[40px] font-bold ml-[20px] mt-[10px] ' >We have some fans.</p>
+ </div>
 </body>
 
   ) 
